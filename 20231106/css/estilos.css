@@ -2,4 +2,22 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    display: left;
+    width: 100%;
+}
+
+aside {
+    background-color: #F5F5F5;
+    text-align: center;
+    color: black;
+    width: 20%;
+    float: left;
+}
+
+main {
+    background-color: #F5F5F5;
+    text-align: center;
+    color: black;
+    width: 80%;
+    float: right;
 }
