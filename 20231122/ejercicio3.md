@@ -1,5 +1,5 @@
-# Ejercicio 1
-Crea un documento HTML llamado ejercicio1.html en el cual:
+# Ejercicio 3
+Crea un documento HTML llamado ejercicio3.html en el cual:
 - El título del documento sea tu nombre y primer apellido.
 - Definas que el lenguaje del documento es español.
 - Establezcas que el juego de caracteres a utilizar es utf-8.
