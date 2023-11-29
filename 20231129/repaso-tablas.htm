@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi página HTML</title>
+</head>
+<body>
+    <h1>Repaso de tablas</h1>
+    <table border="1" >
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Edad</th>
+                <th>Sobra1</th>
+                <th>Sobra2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nombre 1</td>
+                <td colspan="2">Apellidos 1</td>
+                <td colspan="2">Edad 1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Nombre 2</td>
+                <td>Apellidos 2</td>
+                <td>Edad 2</td>
+            </tr>
+            <tr >
+                <td >Nombre 3</td>
+                <td>Apellidos 3</td>
+                <td>Edad 3</td>
+            </tr>
+            <tr>
+                <td colspan="5" >
+                    <table border="1" >
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>
+                                    <ul>
+                                        <li>op1</li>
+                                        <li>op2</li>
+                                        <li>op3</li>
+                                    </ul>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><hr></td>
+                                <td>Apellidos 1</td>
+                                <td>Edad 1</td>
+                            </tr>
+                            <tr>
+                                <td>Nombre 2</td>
+                                <td>Apellidos 2</td>
+                                <td>Edad 2</td>
+                            </tr>
+                            <tr>
+                                <td>Nombre 3</td>
+                                <td>Apellidos 3</td>
+                                <td>Edad 3</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Pie de tabla</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td colspan="5">Pie de tabla</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
