@@ -1,0 +1,25 @@
+.capa1{
+    /* Esto se aplicará a todos los elementos de class nombre */
+    background-color: blue;
+    color: magenta;
+}
+
+p {
+    /* Esto se aplicará a todos los elementos de tipo p */
+    /* background-c
+    lor: green;*/
+    color: magenta;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#miSpan{
+    /* Esto se aplicará a todos los elementos de id miSpan */
+    background-image: url(../imgs/bee.jpeg);
+    background-repeat: repeat-x;
+    height: 200px;
+    width: 600px;
+    border: 1px solid black;
+
+}
