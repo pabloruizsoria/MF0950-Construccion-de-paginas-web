@@ -12,7 +12,7 @@ Haciendo uso de los ficheros portafolio.html y estilos.css:
 
 - En el fichero css crea un estilo para que los enlaces cambien al pasar el ratón por encima.
 
-- Crea las páginas sobre-mi.html, proyectos.html y contacto.htmlcumpliendo los siguientes requisitos:
+- Crea las páginas sobre-mi.html, proyectos.html y contacto.html cumpliendo los siguientes requisitos:
   -  su aspecto debe ser similar al existente en portafolio.html
   -  amplía la información de cada sección añadiendo al menos:
      -  4 imágenes
