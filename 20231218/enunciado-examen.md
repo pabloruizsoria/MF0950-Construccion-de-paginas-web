@@ -1,7 +1,7 @@
 En esta prueba, se evaluará tu conocimiento sobre las etiquetas HTML. Asegúrate de no utilizar CSS ni JavaScript en tus respuestas.
 
 1. Crea una estructura básica de HTML utilizando las etiquetas `<html>`, `<head>` y `<body>`.
-2. Dentro del `<head>` pon un título que sea tu nombre y primer apellido.
+2. Dentro del `<head>` pon un título con tu nombre y primer apellido.
 3. Dentro del `<head>` ubica las etiquetas de atributo **charset** y **name** que venimos utilizando habitualmente.
 4. Dentro del `<body>` haz un uso de las etiquetas `<header>`, `<nav>`, `<main>` y `<footer>` para crear una estructura lógica en tu página web.
 5. Dentro de `<header>` ubica:
