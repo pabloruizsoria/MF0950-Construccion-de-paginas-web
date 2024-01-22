@@ -1,6 +1,7 @@
 Los selectores en CSS son patrones que se utilizan para seleccionar y aplicar estilos a elementos específicos en una página web. Hay varios tipos de selectores que permiten apuntar a diferentes elementos de manera eficiente.
 
 1. Selector de Tipo:
+
 Selecciona todos los elementos de un tipo específico.
 
 Ejemplo:
@@ -41,6 +42,7 @@ Ejemplo:
 ```
 
 5. Selector de Atributo:
+
 Selecciona elementos que tienen un atributo específico.
 
 Ejemplo:
@@ -50,7 +52,20 @@ input[type="text"] {
 }
 ```
 
-6. Selector Descendente:
+También podemos seleccionar elementos por su atributo cuando el mismo comienza por un texto dado. En el apartado 11 se trata de nuevo:
+
+```CSS
+input[class^="palabra"] {
+  border: 1px solid #ccc;
+}
+
+p[id^="otrapalabra"] {
+  border: 1px solid #ccc;
+}
+
+```
+
+6. **Selector Descendente**:
 Selecciona un elemento que es descendiente de otro.
 
 Ejemplo:
@@ -60,14 +75,18 @@ article p {
 }
 ```
 
-7. Selector de Clase Anidado:
-Selecciona elementos que tienen una clase específica dentro de otro elemento.
+7. **Selector de Clase Anidado**:
+Selecciona elementos que tienen una clase específica **dentro** de otro elemento.
 
 Ejemplo:
 ```CSS
 nav .menu-item {
   font-weight: bold;
 }
+```
+
+```HTML
+<nav>abc <p class="menu-item">a esta parte es a la que se refiere el selector</p> xyz</nav>
 ```
 
 8. Selector de Pseudoclase:
@@ -121,5 +140,39 @@ li:first-child {
 
 li:last-child {
   color: blue;
+}
+```
+
+13. Media queries
+
+Nos permiten establecer comportamientos para diferentes resoluciones de pantalla
+
+Ejemplo:
+```CSS
+@media only screen and (max-width: 600px) {
+  /* estilos para pantallas con un ancho máximo de 600 píxeles */
+}
+```
+
+También pueden realizarse combinaciones mas complejas como:
+
+```CSS
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+  /* estilos para pantallas con un ancho mínimo de 768 píxeles en orientación apaisada */
+}
+```
+
+
+14. Comentarios en CSS
+
+En CSS los comentarios se escriben con los símbolos // o /**/
+
+Ejemplo:
+```CSS
+p{
+  color: blue;
+  // color: red;
+  /*background-color:pink;
+  text-size: 15px;*/
 }
 ```
