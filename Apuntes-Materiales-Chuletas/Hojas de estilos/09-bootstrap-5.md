@@ -5,7 +5,7 @@ Documentación oficial: https://getbootstrap.com/docs/5.3/getting-started/introd
 Otro manual: https://www.w3schools.com/bootstrap5/bootstrap_get_started.php
 Ejercicios: https://www.w3schools.com/bootstrap5/bootstrap_exercises.php
 
-# Abreviaturas útiles:
+## Abreviaturas útiles:
 mt: margin-top
 me: margin-right (end)
 mb: margin-bottom
