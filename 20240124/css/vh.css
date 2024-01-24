@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.capa1{
+    height: 50vh;
+    background-color: aqua;
+}
+
+.capa2{
+    height: 20vh;
+    background-color: blue;
+}
+
+.capa3{
+    height: 25vh;
+    background-color: brown;
+}
