@@ -10,15 +10,6 @@ margin: 10px;
 width: 200px;
 ```
 
-## Em
-
-Relativo al tamaño de la fuente del elemento. Un valor de 1em es igual al tamaño de la fuente actual.
-
-```CSS
-font-size: 1.2em;
-margin: 1em;
-```
-
 ## Porcentaje (%)
 
 Relativo al tamaño del elemento padre. Por ejemplo, un ancho del 50% hará que un elemento ocupe la mitad del ancho de su contenedor.Ejemplos:
@@ -26,6 +17,15 @@ Relativo al tamaño del elemento padre. Por ejemplo, un ancho del 50% hará que 
 ```CSS
 width: 50%;
 height: 75%;
+```
+
+## Em
+
+Relativo al tamaño de la fuente del elemento. Un valor de 1em es igual al tamaño de la fuente actual.
+
+```CSS
+font-size: 1.2em;
+margin: 1em;
 ```
 
 ## Rem
