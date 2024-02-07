@@ -1,0 +1,72 @@
+* {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.par, .impar{
+    color: red;
+}
+
+.impar{
+    background-color: #999999;
+}
+
+#uno{
+    text-decoration: overline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dos{
+    text-decoration: line-through;
+}
+
+input{
+    color: pink;;
+}
+
+input[type="password"]{
+    color: blue;
+}
+
+p[id^="fila"] {
+    text-decoration: line-through ;
+  }
+
+main p{
+    text-transform: uppercase;
+}
+
+span{
+    color: green;
+}
+
+span .spanclase {
+    text-transform: uppercase;
+}
+
+a:visited{
+    color:rgb(21, 194, 35);
+}
+
+a:hover{
+    text-transform: uppercase;
+}
+
+header{
+    color:green;
+}
+
+header::after{
+    margin-bottom: 200px;
+}
+main::before{
+    margin-bottom: 200px;
+}
+
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: blue;
+}

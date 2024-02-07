@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi página web</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #333;
+			height: 100px;
+			position: fixed;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 1;
+		}
+		nav {
+			background-color: #ccc;
+			height: calc(100vh - 100px);
+			position: fixed;
+			top: 100px;
+			right: 0;
+			width: 200px;
+			z-index: 1;
+		}
+		main {
+			background-color: #eee;
+			margin-top: 100px;
+			padding: 20px;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			height: 50px;
+			padding: 10px;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			z-index: 1;
+		}
+		img {
+			height: 100px;
+			margin: 10px;
+			float: left;
+		}
+		nav ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		nav li {
+			padding: 10px;
+			border-bottom: 1px solid #999;
+		}
+		nav li:last-child {
+			border-bottom: none;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="https://via.placeholder.com/100x100" alt="Logo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Enlace 1</a></li>
+			<li><a href="#">Enlace 2</a></li>
+			<li><a href="#">Enlace 3</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h1>Bienvenido a mi página web</h1>
+		<p>Esta es una página de ejemplo con una cabecera fija en la parte superior, un menú lateral ubicado a la derecha de la página y un pie de página. Cada zona tiene un color de fondo diferente.</p>
+	</main>
+	<footer>
+		<p>Derechos reservados &copy; 2021</p>
+	</footer>
+</body>
+</html>
