@@ -1,5 +1,5 @@
 # Comportamiento del atributo display en CSS
-El **atributo** **display** en  determina cómo se va a mostrar un elemento en la página.
+El **atributo** **display** determina cómo se va a mostrar un elemento en la página.
 
 ## block:
 El elemento se mostrará como un bloque, ocupando todo el ancho disponible.
