@@ -1,0 +1,54 @@
+.container {
+    display: grid;
+
+    grid-template-areas:
+        "header header header header"
+        "menu main main main"
+        "menu main main main"
+        "menu main main main"
+        "menu main main main"
+        "footer footer footer footer"
+
+}
+
+header {
+    grid-area: header;
+    position: sticky;
+    top: 0;
+    height: 60px;
+}
+
+nav {
+    grid-area: menu;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;    /* los elementos en 1 fila*/
+}
+
+.card {
+    border: 1px solid black;
+    display: flex;
+    flex: 1; /* cada tarjeta ocupa 1 */
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}

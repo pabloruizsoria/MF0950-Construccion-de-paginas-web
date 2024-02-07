@@ -1,0 +1,47 @@
+p {
+    text-align: justify;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    padding: 10px;
+}
+
+nav>ul {
+    padding: 5px;
+    margin: 0;
+}
+
+header {
+    background-color: red;
+}
+
+nav {
+    background-color: rgb(241, 201, 208);
+}
+
+main {
+    background-color: rgb(199, 240, 219);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
