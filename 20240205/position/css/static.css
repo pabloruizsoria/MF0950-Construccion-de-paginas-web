@@ -1,0 +1,30 @@
+.capa1{
+    position: static;
+    background-color: aliceblue;
+}
+.capa2{
+    position: static;
+    background-color:aqua;
+}
+.capa3{
+    position: static;
+    background-color:blue;
+}
+
+.capa11{
+    position: static ;
+    bottom: 0;
+    background-color:gray;
+}
+
+.capa12{
+    position: static;
+    right: 0;
+    background-color:green;
+}
+
+.capa13{
+    position: static;
+    top: 0px;
+    background-color:yellow;
+}

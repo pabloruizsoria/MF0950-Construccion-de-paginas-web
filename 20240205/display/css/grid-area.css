@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+
+    grid-template-areas: 
+        "header header header header"
+        "menu main main main"
+        "menu main main main"
+        "footer footer footer footer"
+
+}
+
+.header{
+    grid-area: header;
+    background-color: red;
+}
+
+.menu{
+    grid-area: menu;
+    background-color: green;
+}
+
+.main{
+    grid-area: main;
+    background-color: yellow;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: blue;
+}

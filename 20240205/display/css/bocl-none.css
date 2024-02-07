@@ -1,0 +1,17 @@
+.capa1visible{
+    background-color: aliceblue;
+    display: block;
+}
+.capa2visible{
+    background-color: magenta;
+    display: block;
+}
+
+.capa1invisible{
+    background-color: green;
+    display: none;
+}
+.capa2invisible{
+    background-color: red;
+    display: none;
+}

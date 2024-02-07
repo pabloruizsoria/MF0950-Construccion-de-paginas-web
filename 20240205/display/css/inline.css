@@ -1,0 +1,18 @@
+div{
+    width: 50%;
+}
+.capa1{
+    background-color: aliceblue;
+}
+.capa2{
+    background-color: magenta;
+    display: inline; 
+}
+
+.capa3{
+    background-color: yellow;
+    display: inline; 
+}
+.capa4{
+    background-color: yellowgreen;
+}

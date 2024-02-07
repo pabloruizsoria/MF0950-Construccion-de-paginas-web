@@ -1,0 +1,15 @@
+.menupri{
+    background-color: red;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.menusec{
+    background-color: blue;
+    position: sticky;
+    top:80px
+}
+.body{
+    background-color: green;
+}

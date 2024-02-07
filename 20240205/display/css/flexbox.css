@@ -1,0 +1,17 @@
+.container{
+    display:flex;
+}
+
+.flexr{
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    background-color: red;
+}
+
+.flexc{
+    flex-direction:column;
+    width: 100%;
+    height: 50vh;
+    background-color: blue;
+}

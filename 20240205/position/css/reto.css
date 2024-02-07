@@ -1,0 +1,26 @@
+.pri{
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+    height: 26px;
+    top: 0;
+    left: 0;
+}
+
+.sec{
+    position: fixed;
+    width: 100%;
+    background-color: red;
+    height: 26px;
+    top: 26px;
+    left: 0;
+}
+
+.body{
+    position: fixed;
+    background-color: magenta;
+    height: 500px;
+    top: 52px;
+	overflow-y: scroll;
+	overflow-x:scroll ;
+}

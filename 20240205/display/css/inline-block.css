@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 50%;
+}
+.capa1{
+    background-color: aliceblue;
+}
+.capa2{
+    background-color: magenta;
+    display: inline-block;
+}
+
+.capa3{
+    background-color: yellow;
+    display: inline-block;
+}
+.capa4{
+    background-color: yellowgreen;
+}
