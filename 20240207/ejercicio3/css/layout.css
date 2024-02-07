@@ -1,24 +1,24 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100vh; /* Indico que el alto de la página es 100 */
+    width: 100vw; /* Indico que el ancho de la página es 100 */
 }
 
 .container{
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-wrap: nowrap; /* Indico que no pase de línea los elementos y los meta todos en una */
+    flex-direction: row; /* Trabajamos con filas */
 }
 
 .capa1{
     background-color: blue;
-    width: 50vw;
-    height: 100vh;
+    width: 50vw; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 100vh; /* Le indico qie ocupe todo el algo */
 
-    display: flex;
+    display: flex; /* Esta capa a su vez actuará como contenedor de otras capas */
     flex-wrap: nowrap;
-    flex-direction: column;
+    flex-direction: column; /* Las capas aquí contenidas se ordenarán como columnas */
 }
 
 .capa2{

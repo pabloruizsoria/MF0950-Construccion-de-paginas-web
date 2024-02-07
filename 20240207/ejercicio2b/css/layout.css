@@ -25,9 +25,9 @@ body{
 
 .capa4{
     background-color: purple;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid; /* En este ejercicio esta capa ahora debe actuar como contenedor grid de las otras */
+    grid-template-rows: 1fr 1fr; /* Defino que quiero 2 filas de igual alto */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Defino que quiero 4 columnas de igual ancho */
 }
 
 .capa41{

@@ -1,18 +1,18 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100vh; /* Defino que el alto de la página es 100 */
 }
 
 .container{
-    display: grid;
-    grid-template-rows: 1fr 3fr;
-    grid-template-columns: 1fr 3fr;
+    display: grid; /* Establezco el diseño de rejilla */
+    grid-template-rows: 1fr 3fr; /* Indico el reparto de espacios en las filas */
+    grid-template-columns: 1fr 3fr; /* Indico el reparto de espacios en las columnas */
 }
 
 .capa1{
     background-color: blue;
-    height: 25vh;
+    height: 25vh; /*Establezco en esta capa su altura y así todo irá en proporción*/
 }
 
 .capa2{
