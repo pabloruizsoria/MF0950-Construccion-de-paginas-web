@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.capa1{
+    background-color: blue;
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.capa2{
+    background-color: red;
+    width: 50vw;
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.capa11{
+    flex: 1;
+    background-color: forestgreen;
+}
+
+.capa12{
+    flex: 1;
+    background-color: gold;
+}
+
+.capa13{
+    flex: 1;
+    background-color: teal;
+}
+
+.capa14{
+    flex: 1;
+    background-color: wheat;
+}
+
+.capa21{
+    flex: 1;
+    background-color: indianred;
+}
+
+.capa22{
+    flex: 1;
+    background-color: olive;
+}
+
+.capa23{
+    flex: 1;
+    background-color: cornflowerblue;
+}

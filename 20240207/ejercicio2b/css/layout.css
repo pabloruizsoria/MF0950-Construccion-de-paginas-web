@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 3fr;
+}
+
+.capa1{
+    background-color: blue;
+    height: 25vh;
+}
+
+.capa2{
+    background-color: red;
+}
+
+.capa3{
+    background-color: green;
+}
+
+.capa4{
+    background-color: purple;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.capa41{
+    background-color: aliceblue;
+}
+
+.capa42{
+    background-color:aqua;
+}
+
+
+.capa43{
+    background-color:beige;
+}
+
+.capa44{
+    background-color: bisque;
+}
+
+.capa45{
+    background-color: chocolate;
+}
+
+.capa46{
+    background-color: chartreuse;
+}
+
+.capa47{
+    background-color: darkgrey;
+}
+
+.capa48{
+    background-color: black;
+    color: white;
+}
