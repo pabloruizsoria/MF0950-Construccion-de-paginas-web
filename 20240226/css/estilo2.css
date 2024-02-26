@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 50%;
+    height: 50vh;
+    float: left;
+    text-align: center;
+}
+.capa1{
+    background-color: cadetblue;
+}
+.capa2{
+    background-color: rebeccapurple;
+}
+.capa3{
+    background-color: goldenrod;
+}
+.capa4{
+    background-color: maroon;
+}
