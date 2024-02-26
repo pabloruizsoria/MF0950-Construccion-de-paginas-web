@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio propuesto 7</title>
+    <link rel="stylesheet" href="css/estilo7.css">
+</head>
+
+<body>
+    <!--
+    - Distribuye la página del siguiente modo:
+    h h h h h
+    n m m m m
+    n m m m m
+    n m m m m
+    n m m m m
+    f f f f f
+    siendo h = header; n = nav; m = main; f = footer
+
+    - Cada uno de los elementos anteriores debe tener un color de fondo diferente.
+
+    - Los textos en las cabeceras (h1, h2,...) deben ser centrados
+
+    - Los enlaces del menú no deben tener la viñeta que tienen las listas
+
+    - En cualquier enlace, al pasar el ratón por encima, el color de texto debe ponerse blanco y el fondo negro.
+
+    - En la tabla tienes que hacer "un pijama", es decir, cada fila debe tener un color de fondo diferente
+
+    - En la tabla, las celdas que tienen números, el contenido debe alinearse a la derecha.
+
+    - Opcional: en la tabla, haz que entre fila y fila aparezca una línea negra de 1 px de color negro
+
+    - Los párrafos del main deben tener su texto justificado.
+
+    - Los párrafos del footer deben tener su texto centrado
+
+    - Las listas del footer deben aparecer a la derecha y sin viñetas.
+-->
+    <div class="container">
+        <header>
+            Cabecera
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Estadística</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nombre</th>
+                        <th>Apellidos</th>
+                        <th>Salario/mes (€)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="par">
+                        <td class="numero">1</td>
+                        <td>Juan</td>
+                        <td>Sin Tierra</td>
+                        <td class="numero">1.000</td>
+                    </tr>
+                    <tr class="impar">
+                        <td class="numero">2</td>
+                        <td>Ada</td>
+                        <td>Lovelace</td>
+                        <td class="numero">1.900</td>
+                    </tr>
+                    <tr class="par">
+                        <td class="numero">3</td>
+                        <td>Lady</td>
+                        <td>Di</td>
+                        <td class="numero">2.100</td>
+                    </tr>
+                    <tr class="impar">
+                        <td class="numero">4</td>
+                        <td>Ricardo</td>
+                        <td>Corazón de León</td>
+                        <td class="numero">2.300</td>
+                    </tr>
+                    <tr class="par">
+                        <td class="numero">5</td>
+                        <td>Mónica</td>
+                        <td>Carcía</td>
+                        <td class="numero">1.100</td>
+                    </tr>
+                    <tr class="impar">
+                        <td class="numero">6</td>
+                        <td>Perico</td>
+                        <td>Palotes</td>
+                        <td class="numero">1.300</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores consectetur autem provident ducimus eius debitis minus eos sit? Rem praesentium modi ducimus. Quos accusantium necessitatibus, ullam blanditiis aut enim eveniet?</p>
+        </main>
+        <footer>
+            <p>Texto centrado</p>
+            <ul class="rrss">
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
