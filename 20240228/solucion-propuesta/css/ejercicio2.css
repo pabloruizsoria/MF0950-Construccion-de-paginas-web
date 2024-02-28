@@ -1,0 +1,20 @@
+.capa1{
+    border: 1px solid black;
+    color: green;
+}
+
+.capa2{
+    border-right: 1px dotted red;
+    border-left: 1px dotted red;
+    color: blue;
+}
+
+.capa3{
+    border-top: 1px double blue;
+    border-bottom: 1px double blue;
+    color: green;
+}
+
+.rojo{
+    color: red;
+}

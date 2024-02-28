@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background-color: darkgray;
+    display:flex;
+}
+
+.logo{
+    width: 32px;
+    height: 32px;
+    display: inline;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+.imagenes img{
+    width: 33%;
+}
+
+.botonera{
+    list-style-type: none;
+    display:flex;
+}
+
+.botonera li{
+    width: 100px;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    padding-top: 50px;
+}
+
+main a{
+    color: white;
+    background-color: black;
+}
+
+main a:hover{
+    color: black;
+    background-color: white;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.justificado{
+    text-align: justify;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: gray;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer img{
+    width: 32px;
+    height: 32px;
+    display:list-item;
+    margin-top: 5px;
+    padding-left: 90%;
+
+}
