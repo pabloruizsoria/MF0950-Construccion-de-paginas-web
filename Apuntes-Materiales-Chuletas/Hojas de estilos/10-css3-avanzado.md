@@ -3,7 +3,7 @@
 Introducción a estas propiedades
 
 ## transform:
-La propiedad transform permite aplicar transformaciones a un elemento en el espacio 2D o 3D. Puede incluir varias funciones como translate(), rotate(), scale(), y más.
+La **propiedad transform** permite aplicar transformaciones a un elemento en el espacio 2D o 3D. Puede incluir varias funciones como *translate(), rotate(), scale()*, y más.
 
 ```CSS
 .transform-example {
@@ -15,7 +15,7 @@ En este ejemplo, el elemento con la clase transform-example se rotará 45 grados
 
 ## transition:
 
-La propiedad transition permite suavizar los cambios en las propiedades CSS durante un período de tiempo determinado. Es útil para crear efectos de transición suaves.
+La **propiedad transition** permite suavizar los cambios en las propiedades CSS durante un período de tiempo determinado. Es útil para crear efectos de transición suaves.
 
 ```CSS
 .transition-example {
@@ -33,7 +33,7 @@ La propiedad transition permite suavizar los cambios en las propiedades CSS dura
 En este ejemplo, cuando el mouse se posa sobre el elemento con la clase transition-example, la propiedad width cambia su valor durante 1 segundo con un efecto suave.
 
 ## animation:
-La propiedad **animation** permite crear animaciones más complejas y personalizadas mediante la definición de keyframes.
+La **propiedad animation** permite crear animaciones más complejas y personalizadas mediante la definición de keyframes.
 
 ```CSS
 @keyframes bounce {
@@ -54,5 +54,3 @@ La propiedad **animation** permite crear animaciones más complejas y personaliz
 ```
 
 En este ejemplo, se define una animación llamada bounce que hace que el elemento con la clase animation-example rebote hacia arriba y abajo de manera continua durante 2 segundos.
-
-Estos ejemplos son solo el comienzo; las propiedades transform, transition y animation ofrecen una amplia gama de posibilidades para mejorar la apariencia y la interactividad de tu sitio web.
