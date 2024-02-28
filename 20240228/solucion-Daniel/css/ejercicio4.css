@@ -1,0 +1,30 @@
+article{
+    background-color: cyan;
+    font-size: 30px;
+}
+
+nav{
+    background-color: rgb(150, 92, 204);
+}
+
+nav a:hover{
+    color: red;
+}
+
+article{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.493);
+}
+
+
+aside{
+    background-color: brown;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: rgb(37, 37, 56);
+    color: white;
+}

@@ -1,0 +1,73 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(55, 55, 158);
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+.botonera li {
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    background-color: red;
+
+}
+
+main {
+    padding-top: 50px;
+    width: 100%;
+
+}
+
+main h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.justificado {
+    text-align: justify;
+}
+
+.imagenes img {
+    width: 33%;
+}
+
+main a {
+    color: white;
+    background-color: black;
+}
+
+main a:hover {
+    color: black;
+    background-color: white;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+footer p {
+    color: grey;
+    text-align: center;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-left: 96vw;
+
+}
