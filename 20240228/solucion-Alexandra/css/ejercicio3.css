@@ -1,0 +1,77 @@
+header {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+
+.botonera {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.botonera li {
+    display: inline-block;
+}
+
+.botonera li a {
+    display: inline-block;
+    width: 100px;
+    line-height: 50px; 
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.botonera li a:hover {
+    color: black;
+    background-color: #fff;
+}
+main {
+    padding-top: 50px; 
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.justificado {
+    text-align: justify;
+}
+.imagenes img {
+    width: 33%;
+    height: auto;
+    display: inline-block;
+}
+main a {
+    color: white;
+    background-color: black;
+}
+
+main a:hover {
+    color: black;
+    background-color: white;
+}
+footer {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+footer img {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 0 auto;
+}

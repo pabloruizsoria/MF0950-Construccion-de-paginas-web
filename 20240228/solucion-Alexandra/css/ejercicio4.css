@@ -1,0 +1,27 @@
+article {
+    background-color: blueviolet;
+    font-size: 20px;
+    padding: 10px; 
+    margin-bottom: 20px;
+    border: 1px solid hsla(0, 0%, 80%, 0.045);
+    box-shadow: 2px 2px 5px #0000000d; 
+}
+nav {
+    background-color: lightcoral; 
+}
+nav a {
+    color: purple;
+}
+nav a:hover {
+    color: pink; 
+}
+aside {
+    border: 1px solid violet ; 
+    background-color: darkmagenta;
+}
+footer {
+    background-color: darkslategrey; 
+    color: beige; 
+    text-align: center; 
+    padding: 10px; 
+}
