@@ -1,0 +1,56 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+.logo{
+    height: 32px;
+    width: 32px;
+}
+ul.botonera li{
+    list-style-type: none;
+    display: inline;
+   padding-right: 0.5em;
+   
+}
+li{
+    width: 100px;
+}
+main{
+    padding-top: 50px;
+    width: 100%;
+}
+h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+}
+.imagenes{
+    width: 33%;
+}
+
+a{
+    color: white;
+    background-color: black;
+}
+a:hover{
+    color: black;
+    background-color: white;
+    
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: gray;
+    text-align: center;
+}

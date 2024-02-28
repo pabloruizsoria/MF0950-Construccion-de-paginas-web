@@ -1,0 +1,19 @@
+article{
+    background-color: aqua;
+    border: 1px groove blue;
+    font-size: medium;
+    margin: 40px;
+    box-shadow: 20px 20px 20px 10px rgba(0, 0, 0, 0.2);
+}
+nav{
+background-color: blueviolet;
+}
+a:hover{
+    color: white;
+    background-color: black;
+    
+}
+footer{
+    color: aliceblue;
+    background-color: black
+}
