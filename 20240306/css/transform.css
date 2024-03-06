@@ -1,0 +1,51 @@
+.capa1{
+    background-color: chocolate;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.capa2{
+    background-color: darkolivegreen;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.capa3{
+    background-color: gold;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.capa4{
+    background-color: firebrick;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.transformacion1{
+    transform: /*rotate(45deg)*/ scale(0.5);
+}
+
+.transformacion2{
+    transform: /*rotate(-45deg) /*scale(1.5)*/ translate(50px, 50px) ;
+}
+
+.transformacion3{
+    transform: rotateX(45deg)rotateY(45deg) /*scale(0.5)*/;
+}
+
+.transformacion4{
+    transform: /*rotate(-45deg) /*scale(1.5)*/ translateX(50px) ;
+}

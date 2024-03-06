@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: blueviolet;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    height: 40px;
+}
+
+nav ul{
+    height: 100%;
+}
+
+nav ul li{
+    width: 16vw;
+}
+
+nav ul li a{
+    color: white;
+}
+
+.opc1{
+    transition:
+        background-color 5s,
+        font-weight 2s
+        ;
+}
+
+.opc1:hover{
+    background-color: gold;
+    font-weight: bold;
+}

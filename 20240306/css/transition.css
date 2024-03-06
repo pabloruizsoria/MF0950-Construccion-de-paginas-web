@@ -1,0 +1,23 @@
+.capa1{
+    background-color: aquamarine;
+    width: 100px;
+}
+
+.capa1:hover{
+    background-color: red;
+    width: 200px;
+}
+
+.capa2{
+    background-color: olive;
+    width: 100px;
+    transition:
+        background-color 5s ease-in-out,
+        width 2s ease-in-out
+        ;
+}
+
+.capa2:hover{
+    background-color: gold;
+    width: 200px;
+}
