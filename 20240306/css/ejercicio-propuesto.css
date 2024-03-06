@@ -18,10 +18,15 @@ nav{
 
 nav ul{
     height: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 nav ul li{
     width: 16vw;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px blueviolet solid;
 }
 
 nav ul li a{
@@ -30,12 +35,34 @@ nav ul li a{
 
 .opc1{
     transition:
-        background-color 5s,
-        font-weight 2s
+        background-color 2s
         ;
 }
 
 .opc1:hover{
     background-color: gold;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.opc2{
+    transition:
+        background-color 0.5s
+        ;
+}
+
+.opc2:hover{
+    background-color: magenta;
+    border: 1px white solid;
+}
+
+.opc3{
+    transition:
+        background-color 0.5s
+        ;
+}
+
+.opc3:hover{
+    background-color: mediumvioletred;
+    border: 1px white solid;
+    transform: scale(1.5);
 }
