@@ -66,3 +66,48 @@ nav ul li a{
     border: 1px white solid;
     transform: scale(1.5);
 }
+
+@keyframes miAnimacion {
+    0%, 50%, 100% {
+      transform: translateY(0);
+      background-color: blueviolet;
+    }
+    25% {
+      transform: translateY(-30px);
+      background-color: blueviolet;
+    }
+    75% {
+      transform: translateY(30px);
+      background-color: blueviolet;
+    }
+  }
+
+.opc4{
+  color: white;
+  border: 1px blueviolet solid;
+}
+
+.opc4:hover{
+    color: black;
+    border: 1px black solid;
+    animation: miAnimacion 4s infinite;
+}
+
+.opc5{
+    font-size: 16px;
+    transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+.opc5:hover{
+    font-size: 24px;
+}
+
+.opc6{
+    transition: rotate 2s;
+}
+
+.opc6:hover{
+    rotate: 360deg;
+}
