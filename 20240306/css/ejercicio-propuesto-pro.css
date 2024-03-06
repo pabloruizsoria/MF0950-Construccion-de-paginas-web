@@ -1,0 +1,38 @@
+/* Con bootstrap */
+.barraout{
+    width: 100%;
+    height: 15px;
+    /*background-color: gray;*/
+}
+
+.barrain{
+    width: 0%;
+    /*background-color: green;*/
+    height: 100%;
+    transition:
+        width 8s;
+}
+
+.barraout:hover .barrain  {
+    width: 100%;
+}
+
+/* Sin bootstrap */
+
+.contenedor{
+    width: 100%;
+    height: 15px;
+    background-color: gray;
+}
+
+.contenido{
+    width: 0%;
+    background-color: green;
+    height: 100%;
+    transition:
+        width 8s;
+}
+
+.contenedor:hover .contenido  {
+    width: 100%;
+}
