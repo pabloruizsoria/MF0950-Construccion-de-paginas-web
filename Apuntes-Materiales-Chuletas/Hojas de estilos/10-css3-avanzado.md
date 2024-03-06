@@ -1,4 +1,4 @@
-# CSS3 avanzado: transform, transition y ex
+# CSS3 avanzado: transform, transition y animation
 
 Introducción a estas propiedades
 
