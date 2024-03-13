@@ -1,0 +1,1 @@
+Las actividades de este día no se han podido subir debido a un error en mi equipo. Trataré de subirlos a la mayor brebedad posible
