@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ejemplo</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <form action="procesar.php" method="post" autocomplete="off"  >
+        <input type="hidden" name="escondida" id="escondida" value="valor">
+        <div class="fila" >
+            <label for="nombre" >(*) Nombre:</label>
+            <input type="text" name="nombre" id="nombre" tabindex="1" placeholder="Introduzca su nombre completo">
+        </div>
+        <div class="fila" >
+            <label for="nombre" >(*) Nombre:</label><input type="text" name="nombre" id="nombre" tabindex="1" placeholder="Introduzca su nombre completo">
+        </div>
+        <div class="fila" >
+            <label for="pape" >(*) Primer apellido: </label>
+            <input type="text" name="pape" id="pape" tabindex="2" placeholder="Introduzca su primer apellido">
+        </div>
+        <div class="fila" >
+            <label for="sape" >Segundo apellido: </label>
+            <input type="text" name="sape" id="sape" tabindex="3" placeholder="Introduzca su segundo apellido">
+        </div>
+        <div class="fila" >
+            <label for="email" >(*) Correo electrónico: </label>
+            <input type="email" name="email" id="email" tabindex="4" placeholder="Introduzca su correo electrónico">
+        </div>
+        <div class="fila" >
+            <label for="bornday" >(*) Fecha de nacimiento (dd/mm/aaaa): </label>
+            <input type="date" name="bornday" id="bornday" tabindex="5" placeholder="Introduzca fecha de nacimiento">
+        </div>
+        <div class="fila" >
+            <label for="hora" >Hora de la cita: </label>
+            <input type="time" name="hora" id="hora" tabindex="6" placeholder="Hora de la cita"  >
+        </div>
+        <div class="fila" >
+            <label for="partida" >Sube tu partida de nacimiento: </label>
+            <input type="file" name="partida"  id="partida" tabindex="7" placeholder="Sube aquí el fichero"  accept=".jpg, .pdf" maxlength="1048576"> <!-- Máximo de 1MB -->
+        </div>
+        <div class="fila" >
+            <label for="color" >Elige tu color favorito: </label>
+            <input type="color" name="color" id="color" tabindex="8" placeholder="Elige tu color favorito">
+        </div>
+        <div class="fila" >
+            <label for="acepto" >Acepto las condiciones: </label>
+            <input type="checkbox" name="acepto" id="acepto" tabindex="9" placeholder="Acepto lo que me digas"  >
+        </div>
+        <!--div class="fila" >
+            <label for="fechahora" >Fecha y hora de algo: </label>
+            <input type="datetime" name="fechahora" id="fechahora" placeholder="Fecha y hora del evento"  >
+        </div-->
+        <div class="fila" >
+            <label for="numHermanos" >Número de hermanos/as: </label>
+            <input type="number" name="numHermanos" id="numHermanos" tabindex="10" placeholder="Indica el número de hermanos/as" min="0" max="10" value="2"  >
+        </div>
+        <div class="fila" >
+            <label for="genero" >Género: </label>
+            Hombre <input type="radio" id="opc1" name="genero" value="1" tabindex="11"  >
+            Mujer <input type="radio" id="opc2" name="genero" value="2">
+            No binario <input type="radio" id="opc3" name="genero" value="3" >
+
+        </div>
+        <!--div class="fila" >
+            <label for="avatar" >Avatar: </label>
+            <input type="image" src="./img/avatar.jpg"  name="avatar" id="avatar" tabindex="12" placeholder="Indica tu avatar" >
+        </div-->
+        <div class="fila" >
+            <label for="rango" >Rango: </label>
+            <input type="range" name="rango" id="rango" tabindex="13" placeholder="Establece el rango" min="0" max="100" value="20" >
+        </div>
+        <div class="fila" >
+            <label for="web" >Tu web favorita: </label>
+            <input type="url" name="web" id="web" tabindex="14" placeholder="Indica tu web favorita" >
+        </div>
+        <div class="fila" >
+            <label for="tfno" >Dame tu teléfono: </label>
+            <input type="tel" name="tfno" id="tfno" tabindex="15" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####" >
+            <!--input type="number" name="tfno" id="tfno" tabindex="15" required min="0" max="999999999" NO -->
+        </div>
+
+
+
+        <div class="fila" >
+            <button type="submit" tabindex="" >Botón de enviar</button>
+            <button type="reset" tabindex="">Resetea el formulario</button>
+        </div>
+    </form>
+</body>
+</html>
