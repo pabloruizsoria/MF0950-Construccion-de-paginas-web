@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de ejemplo en PHP</title>
+</head>
+<body>
+    <form action="procesar.php" method="post" autocomplete="off"  >
+        <!-- Campos de tipo texto -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required tabindex="1" >
+        <br>
+        <label for="inform">Solo lectura:</label>
+        <input type="text" id="inform" name="info" tabindex="2" readonly   >
+        <br>
+        <label for="desha">Desabilitado:</label>
+        <input type="text" id="desha" name="desha" tabindex="3" disabled   >
+        <br>
+        <label for="inform2">Solo lectura con texto:</label>
+        <input type="text" id="inform2" name="info" required tabindex="4" readonly value="mi texto"   >
+        <br>
+        <label for="desha2">Desabilitado con texto:</label>
+        <input type="text" id="desha2" name="desha" required tabindex="5" disabled  value="mi otro texto"  >
+        <br>
+        <label for="pape">1er apellido:</label>
+        <input type="text" id="pape" name="pape" required tabindex="6" placeholder="Escriba aquí su primer apellido"  >
+        <br>
+        <label for="sape">2ndo apellido:</label>
+        <input type="text" id="sape" name="sape" required tabindex="7" value="Escriba aquí su segundo apellido"  >
+        <br>
+
+
+        <!-- Campos de tipo contraseña -->
+        <label for="contrase">Contraseña:</label>
+        <input type="password" id="contrase" name="contrase" required tabindex="8" >
+
+
+        <!-- DISTITOS TIPOS DE BOTONES PARA NUESTRO FORMULARIO -->
+        <br>
+        <!--input type="submit" value="Enviar prueba"-->
+        <button type="submit" tabindex="9" >Botón de enviar</button>
+        <button type="reset" tabindex="10">Resetea el formulario</button>
+        <!--button type="button" tabindex="2">Botón sin mas</button-->
+    </form>
+</body>
+</html>
