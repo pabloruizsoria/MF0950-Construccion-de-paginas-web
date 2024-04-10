@@ -1,0 +1,7 @@
+.miTextArea{
+    /*border: 10px double blue;*/
+    overflow-x: visible;
+    overflow-y: visible;
+    height: 10vh;
+    width: 80vw;
+}

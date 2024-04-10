@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selects y Textareas</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <form action="destino.jsp" method="post" autocomplete="off"  >
+        <label>(*) Nombre: 
+            <input type="text" size="10" maxlength="8"  name="nombre" id="nombre" tabindex="1" placeholder="Introduzca su nombre completo">
+        </label>
+        <br><br>
+        <label>(*) Nombre: 
+            <input type="text" name="apes" id="apes" size="16" maxlength="18" tabindex="2" placeholder="Introduzca sus Apellidos completo">
+        </label>
+        <br/><br/>
+        <label>
+            Observaciones:
+            <textarea name="observ" id="txaObserv"  tabindex="3" maxlength="10" class="miTextArea" placeholder="Escriba aquí sus observaciones" autocomplete="off"></textarea>
+        </label>
+        <br>
+        <label>
+            Elige tus puntos:
+            <select tabindex="" name="puntos" id="" class="" size="1"  >
+                <option value="1" >a</option>
+                <option value="2" selected >b</option>
+                <option value="3" >c</option>
+            </select>
+        </label>
+        <br><br>
+        <label for="browser">Elige un navegador:</label>
+        <input list="browsers" id="browser" name="browser">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+            <option value="Opera">
+        </datalist>
+    </form>
+</body>
+</html>
