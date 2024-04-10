@@ -1,0 +1,1 @@
+Ahora que ya conoces todas las etiquetas mas importantes de los formularios HTML te propongo que realices un formulario como el existente en https://www.adistanciafparagon.es/soporte/ y que lo maquetes de 2 modos. El 1er método es con CSS puro y el 2º método es haciendo uso de Bootstrap
