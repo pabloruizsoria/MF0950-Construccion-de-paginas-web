@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="./css/ejercicio2.css">
+</head>
+
+<body>
+    <form method="get" action="procesar.php" autocomplete="off">
+        <div class="capa1">
+            <label>
+                <span class="obligatorio">(*)</span>
+                Nombre:
+                <input type="text" tabindex="1" name="inpNombre" id="inpNombre" required class="obligatorio" placeholder="Escribe tu nombre">
+            </label>
+        </div>
+        <div class="capa2">
+            <label for="pape">
+                <span class="obligatorio">(*)</span>
+                Primer apellido:
+            </label>
+            <input type="text" tabindex="2" name="inpPape" id="inpPape" required class="obligatorio" placeholder="Escribe tu primer apellido">
+        </div>
+        <div class="capa3">
+            <label>
+                Segundo apellido:
+                <input type="text" tabindex="3" name="inpSape" id="inpSape" placeholder="Escribe tu segundo apellido">
+            </label>
+        </div>
+        <div class="capa4">
+            <button type="submit" tabindex="4" name="btnEnviar" id="btnEnviar">Enviar</button>
+            <button type="reset" tabindex="5" name="btnReset" id="btnReset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>

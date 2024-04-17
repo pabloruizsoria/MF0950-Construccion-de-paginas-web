@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.obligatorio{
+    color: red;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div{
+    height: 25vh;
+}
+
+.capa1{
+    background-color: beige;
+}
+
+.capa2{
+    background-color:aquamarine
+}
+
+.capa3{
+    background-color:blanchedalmond;
+}
+
+.capa4{
+    background-color: cornsilk;
+}

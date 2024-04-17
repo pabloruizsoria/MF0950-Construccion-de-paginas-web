@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.obligatorio{
+    color: red;
+    font-weight: bold;
+}
+
+div{
+    display: block;
+}
+
+.capa1{
+    background-color: beige;
+}
+
+.capa2{
+    background-color:aquamarine
+}
+
+.capa3{
+    background-color:blanchedalmond;
+}
+
+.capa4{
+    background-color: cornsilk;
+}
