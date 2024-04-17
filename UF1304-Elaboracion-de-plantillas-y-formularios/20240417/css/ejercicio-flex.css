@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Indico que el alto de la página es 100 */
+    width: 100%; /* Indico que el ancho de la página es 100 */
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap; /* Indico que no pase de línea los elementos y los meta todos en una */
+    flex-direction: row; /* Trabajamos con filas */
+}
+
+.capa1{
+    width: 50%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 100vh; /* Le indico qie ocupe todo el algo */
+
+    display: flex; /* Esta capa a su vez actuará como contenedor de otras capas */
+    flex-wrap: nowrap;
+    flex-direction: column; /* Las capas aquí contenidas se ordenarán como columnas */
+}
+
+.capa11{
+    width: 100%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 33.33vh; /* Le indico qie ocupe todo el algo */
+
+    display: flex; /* Esta capa a su vez actuará como contenedor de otras capas */
+    flex-wrap: nowrap;
+    flex-direction: row; /* Las capas aquí contenidas se ordenarán como filas */
+}
+
+.capa111{
+    width: 25%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 100vh; /* Le indico qie ocupe todo el algo */
+
+    display: flex; /* Esta capa a su vez actuará como contenedor de otras capas */
+    flex-wrap: nowrap;
+    flex-direction: column; /* Las capas aquí contenidas se ordenarán como columnas */
+}
+
+.capa112{
+    width: 25%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 100vh; /* Le indico qie ocupe todo el algo */
+}
+
+.capa113{
+    width: 25%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 100vh; /* Le indico qie ocupe todo el algo */
+}
+
+.capa114{
+    width: 25%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 100vh; /* Le indico qie ocupe todo el algo */
+}
+
+.capa12{
+    width: 100%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 33.33vh; /* Le indico qie ocupe todo el algo */
+}
+
+.capa13{
+    width: 100%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 33.33vh; /* Le indico qie ocupe todo el algo */
+}
+
+.capa2{
+    width: 50%; /* Le indico que esta capa ocupe la mitad de todo el ancho ya que mas arriba dijimos era 100 */
+    height: 100vh; /* Le indico qie ocupe todo el algo */
+}
