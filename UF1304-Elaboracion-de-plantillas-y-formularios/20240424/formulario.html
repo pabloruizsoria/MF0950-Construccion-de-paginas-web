@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="e2">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/formulario.css">
+</head>
+<body>
+    <form action="paginaDestino.php" method="get" autocomplete="off">
+        <label for="nombre"><span class="rojo">(*)</span> Nombre: </label>
+        <input type="text" name="nombre" id="nombre" tabindex="1" placeholder="Introduce tu nombre" required  >
+        <input type="hidden" name="oculto" id="oculto" value="" >
+        <input type="hidden" name="oculto2" id="oculto2" value="" >
+        <br>
+        <label for="tfno">Teléfono: </label>
+        <input type="tel" name="tfno" id="tfno" tabindex="2" placeholder="Introduce tu teléfono" value="555-555-555"  >
+        <br>
+        <label for="email">Correo electrónico: </label>
+        <input type="email" name="email" id="email" tabindex="3" placeholder="Introduce tu correo electrónico" >
+        <br>
+        <label for="clave">Clave de la tarjeta de crédito: </label>
+        <input type="password" name="clave" id="clave" tabindex="4" placeholder="Introduce tu pin de la tarjeta" >
+        <br>
+        <label for="color">Color de tu pokemos favorito: </label>
+        <input type="color" name="color" id="color" tabindex="5" placeholder="Introduce tu color favorito" value="#FF0000"  >
+        <br>
+        <label for="fecha">Fecha de nacimiento: </label>
+        <input type="date" name="fecha" id="fecha" tabindex="6" placeholder="Introduce tu fecha de nacimiento" value="2024-04-25"  >
+        <br>
+        <label for="suerte">Tu número de la suerte: </label>
+        <input type="number" name="suerte" id="suerte" tabindex="7" placeholder="Introduce tu número de la suerte" min="0" max="100"  >
+        <br>
+        <label for="rango">A cuántos del descenso: </label>
+        <input type="range" name="rango" id="rango" tabindex="8" placeholder="Introduce a cuantos puntos del descenso se quedará el Zaragoza" min="0" max="26"    >
+        <br>
+        <label>
+            ¿Recibir spam?
+            <input type="checkbox" name="spam" id="spam" tabindex="">
+        </label>
+        <br>
+        <label>Consientes que te espiemos
+            <input type="checkbox" name="espias" id="espias" checked tabindex="" >
+        </label>
+        <br>
+        ¿Te gusta el CSS ese? <br>
+        <label>Si <input type="radio" value="S" name="opcion" ></label>
+        <label>No <input type="radio" value="N" name="opcion" checked ></label>
+        <label>A veces <input type="radio" value="AV" name="opcion" ></label>
+        <br>
+        <label for="numeros" >Elije un número de entre los siguientes</label>
+        <input id="numeros" name="numeros" tabindex="9" list="milista" type="text">
+        <datalist id="milista">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </datalist>
+        <br>
+        <label for="ciudad">Elije una ciudad para la jubilación</label>
+        <select name="ciudad" id="ciudad" tabindex="10" required >
+            <optgroup label="grupo1" >
+                <option value="h">Huesca</option>
+                <option value="t" selected >Teruel</option>
+            </optgroup>
+            <optgroup label="grupo2" >
+                <option value="z">Zaragoza</option>
+            </optgroup>
+        </select>
+        <br>
+        <textarea name="poema" id="poema" cols="90" rows="20"></textarea>
+        <br>
+        <input type="file" name="archivo" id="archivo" tabindex="11" required  accept="image/png, image/jpeg" >
+        <br><br>
+        <button type="submit" id="btnEnviar" name="btnEnviar" tabindex="">Enviar</button>
+        <button type="reset" id="btnVaciar" name="btnVaciar" tabindex="">Vaciar el formulario</button>
+    </form>
+    <!-- Mas info en https://www.mclibre.org/consultar/htmlcss/html/html-formularios.html -->
+</body>
+</html>
