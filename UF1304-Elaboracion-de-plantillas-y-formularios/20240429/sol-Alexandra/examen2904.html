@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/examen2904.css">
+    <title>Examen</title>
+</head>
+
+<body>
+    <h1>Alexandra Rodica Mert</h1>
+    <form action="destino.php" method="post" autocomplete="off">
+
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col"></div>
+                <div class="offset-1 col">
+                    <button class="enviar" type="submit" id="btnEnviar" name="btnEnviar" tabindex="1">Enviar</button>
+                </div>
+                <div class="col">
+                    <button class="borrar" type="reset" id="btnVaciar" name="btnVaciar" tabindex="2">Borrar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="nombre"><span class="negrita">(*)</span> Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" tabindex="3" required
+                        placeholder="Introduce aquí tu nombre">
+                </div>
+                <div class="col">
+                    <label for="nombre"><span class="negrita">(*)</span> Apellidos: </label>
+                    <input type="text" name="nombre" id="nombre" tabindex="4" required
+                        placeholder="Introduce aquí tus apellido">
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="col">
+                <label for="contraseña1"><span class="negrita">(*)</span>Contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña" required tabindex="5"
+                    placeholder="Introduce aquí tu contraseña">
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="col">
+                <label for="contraseña1"><span class="negrita">(*)</span>Repite contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña" required tabindex="6"
+                    placeholder="Repite tu contraseña">
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="edad"><span class="negrita">(*)</span>Edad:</label>
+                    <select name="años" id="años" tabindex="7" required>
+                        <option value="h">Menor de 18</option>
+                        <option value="t" selected>Entre 18 y 65</option>
+                        <option value="z">Mayor que 65</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <input type="hidden" name="oculto" id="oculto" value="56">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <input type="checkbox" name="acepto" id="acepto" tabindex="8">
+                    <label for="acepto">¿Quieres hacerte socio/a?</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="info">Amplía la información:</label>
+                    <textarea name="información" id="información" cols="10" rows="3" tabindex="9"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="color">Elije tu color favorito: </label>
+                    <input type="color" name="color" id="color" tabindex="10">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="fecha">Selecciona tu fecha de nacimiento:</label>
+                    <input type="date" name="fecha" id="fecha" tabindex="11">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="rango">Nota media de primaria: </label>
+                    <input type="range" name="rango" id="rango" tabindex="12" min="0" max="10">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="movil">Teléfono de emergencias:</label>
+                    <input type="tel" name="tfno" id="tfno" tabindex="13" value="000-000-000">
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <label for="nr">Número de hermanos/as:</label>
+                    <input type="number" name="hermanos" id="hermanos" tabindex="14" min="0" max="50">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

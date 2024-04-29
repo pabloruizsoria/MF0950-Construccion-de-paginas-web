@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0%;
+    width: 100%; 
+    text-align: justify;   
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.enviar{
+    background-color: green;
+    color: white;
+    margin-left: 150px;
+}
+.borrar{
+    background-color: orange;
+    color: white;
+    float: center;
+    margin-left: 150px;
+}
+.negrita{
+    color: red;
+}
+.col{
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 500px;
+    
+}
