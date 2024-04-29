@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>Daniel Abadía</h1>
+    </header>
+    <main class="container">
+        <form action="destino.php" method="post" autocomplete="off">
+           
+            <!-- NOMBRE -->
+            <label for="nombre" class="label_nombre">(*)Nombre :</label>
+            <input type="text" name="nombre" id="nombre" class="input_nombre" placeholder="Introduce aquí tu nombre"
+                tabindex="1" required>
+            <br>
+
+            <!-- APELLIDO -->
+            <label for="apellido" class="label_apellido">(*)Apellido :</label>
+            <input type="text" name="apellido" id="apellido" class="input_apellido"
+                placeholder="Introduce aquí tus apellido" tabindex="2" required>
+            <br>
+
+            <!-- CONTRASEÑA -->
+            <label for="password" class="label_password">(*)Contraseña :</label>
+            <input type="password" name="password" id="password" class="input_password"
+                placeholder="Introduce aquí tu contraseña" tabindex="3" required>
+            <br>
+
+
+            <!-- RE-CONTRASEÑA -->
+            <label for="repassword" class="label_repassword">(*)Repite la Contraseña:</label>
+            <input type="password" name="repassword" id="repassword" class="input_repassword"
+                placeholder="Repite tu contraseña" tabindex="4" required>
+            <br>
+
+            <!-- EDAD -->
+            <label for="edad" class="label_edad">Edad</label>
+            <input type="list" name="edad" list="edad" class="input_edad" tabindex="5">
+            <datalist id="edad">
+                <option value="mas de 3 años"></option>
+                <option value="de 2 a 3 años" selected></option>
+                <option value="de 1 a 2 años"></option>
+            </datalist>
+            <br>
+
+            <!-- OCULTO -->
+            <input type="hidden" name="oculto" id="oculto" value="56">
+
+            <!-- HACERTE SOCIO -->
+            <label for="socio" id="socio">¿Quieres hacerte socio/a?</label>
+            <input type="checkbox" name="socio" id="socio" tabindex="6">
+            <br>
+
+            <!-- INFORMACION -->
+            <label for="comentario" class="label_comentario">Amplía la información :</label>
+            <textarea name="comentario" id="comentario" class="textarea_texto" tabindex="7" rows="4"></textarea>
+            <br>
+
+            <!-- CONTRASEÑA -->
+            <label for="color">Elije tu color favorito: </label>
+            <input type="color" name="color" id="color" tabindex="8">
+            <br>
+
+            <!-- FECHA NACIMIENTO -->
+            <label for="fecha">Selecciona tu fecha de nacimiento: </label>
+            <input type="date" name="fecha" id="fecha" tabindex="9">
+            <br>
+
+            <!-- NOTA MEDIA -->
+            <label for="rango">Nota media de primaria: </label>
+            <input type="range" name="rango" id="rango" tabindex="10" min="0" max="10">
+            <br>
+
+            <!-- NUMERO EMERGENCIA -->
+            <label for="tfno">Teléfono de emergencias: </label>
+            <input type="tel" name="tfno" id="tfno" tabindex="11">
+            <br>
+
+            <!-- NUMERO DE HERMANOS -->
+            <label for="hermanos">Número de hermanos/as: </label>
+            <input type="number" name="hermanos" id="hermanos" tabindex="12" min="0" max="50">
+            <br>
+
+            <!-- BOTONN ENVIAR -->
+            <button type="submit" id="btnEnviar" name="btnEnviar" tabindex="13">Enviar</button>
+
+            <!-- BOTON BORRAR -->
+            <button type="reset" id="btnBorrar" name="btnBorrar" tabindex="14">Borrar</button>
+
+        </form>
+    </main>
+</body>
+
+</html>

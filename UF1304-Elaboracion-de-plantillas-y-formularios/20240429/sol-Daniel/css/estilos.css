@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(216, 213, 210);
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color: rgb(240, 240, 240);
+    margin: auto;
+    max-width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.274);
+    padding: 1em;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    resize: none;
+}
+
+textarea{
+    width: 48%;
+}
+
+label{
+    text-align: end;
+}
+
+label, input{
+    display: inline-block;
+    width: 48%;
+    height: 20px;
+}
+
+.label_comentario{
+    vertical-align:top;
+}
+
+#btnEnviar{
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    width: 25%;
+    margin-top: 10px;
+    margin-left: 25%;
+}
+
+#btnBorrar{
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+    width: 25%;
+}
