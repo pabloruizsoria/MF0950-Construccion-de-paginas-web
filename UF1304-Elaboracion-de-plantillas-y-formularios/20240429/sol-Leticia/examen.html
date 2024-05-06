@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Leticia Lobé</h1>
+        <form action="destino.php" method="post" autocomplete="off">
+            <div>
+                <button type="submit" id="btnEnviar" name="btnEnviar" tabindex="1">Enviar</button>
+                <button type="reset" id="btnVaciar" name="btnVaciar" tabindex="2">Borrar</button>
+            </div>
+            <div>
+                <label for="nombre">(*) Nombre: </label>
+                <input type="text" name="nombre" id="nombre" tabindex="3" placeholder="Introduce aquí tu nombre"
+                    required>
+            </div>
+            <div>
+                <label for="apellidos">(*) Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos" tabindex="4"
+                    placeholder="Introduce aquí tus apellidos" required>
+            </div>
+            <div>
+                <label for="contraseña">(*) Contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña" tabindex="5"
+                    placeholder="Introduce aquí tu contraseña" required>
+            </div>
+            <div>
+                <label for="repcontraseña">(*) Repite contraseña:</label>
+                <input type="password" name="repcontraseña" id="repcontraseña" tabindex="6"
+                    placeholder="Repite contraseña" required>
+            </div>
+            <div>
+                <label for="edad" required>(*) Edad:</label>
+                <select name="edad" id="edad">
+                    <option value="menor de 18">menor de 18</option>
+                    <option value="entre 18 y 65" selected>entre 18 y 65</option>
+                    <option value="mayor que 65">mayor que 65 </option>
+                </select>
+                <input type="hidden" name="oculto" id="oculto" value="56">
+            </div>
+            <label>
+                ¿Quieres hacerte socio/a?
+                <input type="checkbox" name="socio" id="socio" tabindex="7">
+            </label>
+            <div>
+                <textarea name="Amplía la información:" id="Amplía la información:" cols="50" rows="50" tabindex="8"
+                    placeholder="Amplía la información..."></textarea>
+            </div>
+            <div>
+                <label for="color">Elije tu color favorito: </label>
+                <input type="color" name="color" id="color" tabindex="8" placeholder="Elije tu color favorito:"
+                    value="#FF6C00">
+            </div>
+            <div>
+                <label for="fecha">Fecha de nacimiento: </label>
+                <input type="date" name="fecha" id="fecha" tabindex="9" placeholder="Selecciona tu fecha de nacimiento:"
+                    value="1940-01-01">
+            </div>
+            <div>
+                <label for="rango">Nota media de primaria: </label>
+                <input type="range" name="rango" id="rango" tabindex="10" placeholder="Nota media de primaria:" min="0"
+                    max="10">
+            </div>
+            <div>
+                <label for="tfno">Teléfono de emergencias:</label>
+                <input type="tel" name="tfno" id="tfno" tabindex="11">
+            </div>
+            <div>
+                <label for="hermanos"> Número de hermanos/as: </label>
+                <input type="number" name="hermanos" id="hermanos" tabindex="12" min="0" max="50">
+            </div>
+        </form>
+</body>
+
+</html>
