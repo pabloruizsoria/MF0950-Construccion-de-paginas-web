@@ -12,7 +12,7 @@ if( entrada1 < 0 ){
 }else if( entrada1 == 0 ){
 
     console.log("El número es 0");
-    
+
 }else{
     console.log("Combinación no contemplada");
 }
