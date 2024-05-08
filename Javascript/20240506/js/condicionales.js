@@ -51,4 +51,6 @@ Algunas comparaciones posibles
 <= menor o igual que
 >= mayor o igual que
 == igual que
+
+
 */
