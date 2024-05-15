@@ -64,3 +64,10 @@ console.log(miCadena[2]);// TODOS
 // Reemplazar un texto
 var miNuevoTexto = "Hamburguesa".replace("ur", "ENSALADA");
 console.log(miNuevoTexto);
+
+// Quedarnos con la parte de una cadena
+var hola = "Hola";
+var holaCortado = hola.substring(1);
+console.log("holaCortado: " + holaCortado);
+var holaCortado2 = hola.substring(1, 3);
+console.log("holaCortado2: " + holaCortado2);
