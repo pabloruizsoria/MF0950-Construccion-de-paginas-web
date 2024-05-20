@@ -1,4 +1,4 @@
-var numero = prompt("Dame un número y te digo si es primo");
+var numero = prompt("Dame un número (mayor que 1) y te digo si es primo");
 
 var i = 2;
 var esPrimo = true;
