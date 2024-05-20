@@ -1,5 +1,6 @@
 var dni = prompt("Dame tu DNI con la letra");
 const letras = "TRWAGMYFPDXBNJZSQVHLCKE";
+
 var debug = false;
 
 // Quito puntos (lo suyo sería usar un bucle pero aún no los hemos visto)
