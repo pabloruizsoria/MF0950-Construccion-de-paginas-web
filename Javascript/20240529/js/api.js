@@ -2,6 +2,7 @@
  * Return a list of elements of pokemos from https://pokeapi.co/api/v2/pokemon
  */
 async function getPokemons() {
+
     try {
         var respuesta = await fetch('https://pokeapi.co/api/v2/pokemon'); // Pido los datos a la API
 
