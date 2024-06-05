@@ -1,0 +1,1 @@
+Vamos a trabajar con WordPress en un entorno local. Para ello vamos al sitio https://localwp.com/ e instalamos su solución
