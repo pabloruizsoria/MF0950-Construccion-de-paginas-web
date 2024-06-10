@@ -3,7 +3,7 @@
 Al final de la prueba deberás enviarme un fichero compromido que deberá contener, al menos, los siguientes ficheros y directorios:
 - index.html
 - formulario.html
-- ./cc/estilos.css
+- ./css/estilos.css
 - ./js/scripts.js
 - ./img
 
