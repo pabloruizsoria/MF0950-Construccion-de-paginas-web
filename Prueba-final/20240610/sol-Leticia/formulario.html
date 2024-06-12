@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body .contenedor-fluido>
+    <h1>Formulario</h1>
+    <hr>
+    <div class="contenedor">
+        <form action="" method="get" autocomplete="off">
+            <div class="nombre">
+                <label for="nombre" id="nombre"><span class="negro">(*)</span> Nombre: </label>
+                <input type="text" name="nombre" id="nombre" tabindex="1" placeholder="Introduce tu nombre" required>
+            </div>
+            <div class="apellidos">
+                <label for="apellidos"><span class="negro">(*)</span> Apellidos: </label>
+                <input type="text" name="apellidos" id="apellidos" tabindex="2" placeholder="Introduce tus apellidos"
+                    required>
+            </div>
+            <br><br>
+            <div class="email">
+                <label for="email"><span class="negro">(*)</span> Correo Electrónico: </label>
+                <input type="email" name="email" id="email" tabindex="3" placeholder="Introduce tu correo Electrónico"
+                    required>
+            </div>
+            <br>
+            <div class="Telefono" >
+                <label for="tfno" ><span class="negro">(*)</span>Teléfono: </label>
+                <input type="tel" name="tfno" id="tfno" tabindex="4" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####" >
+            </div>
+            <br>
+            <div class="FechaNacimiento" >
+                <label for="bornday" ><span class="negro">(*)</span> Fecha de nacimiento (dd/mm/aaaa): </label>
+                <input type="date" name="bornday" id="bornday" tabindex="5" placeholder="Introduzca fecha de nacimiento">
+            </div>
+            <br>
+            <div class="sexo" >
+                <label for="sexo" ><span class="negro">(*)</span>Sexo: </label>
+                Hombre <input type="radio" id="opc1" name="genero" value="1" tabindex="11"  >
+                Mujer <input type="radio" id="opc2" name="genero" value="2">
+            </div>
+            <br>
+            <div class="Comentarios">
+                <label>
+                    Comentarios
+                    <textarea name="observ" id="txaObserv" required rows="9" cols="60" class="miTextArea"
+                        autocomplete="off"></textarea>
+                </label>
+            </div>
+            <div class="boton">
+                <button type="submit" id="btnEnviar" name="btnEnviar" tabindex="">Enviar</button>
+                <button type="reset" id="btnVaciar" name="btnVaciar" tabindex="">Reset</button>
+            </div>
+    </div>
+</body>
+
+</html>

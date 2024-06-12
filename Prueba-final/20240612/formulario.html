@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <form action="porDeterminar.html" method="get" >
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required tabindex="1" >
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required tabindex="2">
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required tabindex="3">
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required tabindex="4">
+
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha" name="fecha" required tabindex="5">
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required tabindex="6">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" tabindex="7"></textarea>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Resetear</button>
+    </form>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
