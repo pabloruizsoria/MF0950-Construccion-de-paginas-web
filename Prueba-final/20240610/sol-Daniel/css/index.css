@@ -1,0 +1,194 @@
+/* ----- RESETEO ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    position: relative;
+    min-height: 100vh; 
+    }
+
+/* ----- MENU DE NAVEGACIÓN ----- */
+nav {
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(12, 12, 63);
+    color: #fff;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    border-radius: 5px;
+    color: rgb(12, 12, 63);
+}
+
+.menu-movil {
+    display: none;
+}
+
+.menu-icono {
+    display: none;
+    font-size: 24px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+/* ----- ENCABEZADO Y SUBTITULO ----- */
+header h1 {
+    margin: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+/* ----- MAIN - ARTICULO ---- */
+main {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 80px; 
+}
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+
+.titulo {
+    padding: 20px;
+    grid-column: 1 / -1;
+    text-align: center;
+    color: white;
+    background-color: rgb(243, 156, 25);
+}
+
+
+.parrafo {
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+.imagen {
+    grid-column: 2 / 3;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    align-self: center;
+    justify-self: center; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+button{
+    background-color: rgb(243, 156, 25);
+    width: 130px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 10px auto;
+}
+
+
+/* ----- FOOTER ----- */
+
+.footer{
+    width: 100%;
+    background-color: rgb(12, 12, 63);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; 
+    bottom: 0; 
+}
+
+
+
+/* ------------- ESTILOS PARA DISPOSITIVOS MOVILES ------------- */
+
+@media (max-width: 768px) {
+
+    /* ----- MENU DE NAVEGACIÓN RESPONSIVE ----- */
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    .menu-icono {
+        display: block;
+        text-align: right;
+    }
+
+    .menu-movil:checked+.menu-icono+.menu {
+        display: flex;
+    }
+
+    /* ----- ARTICULO RESPONSIVE ----- */
+    article {
+        grid-template-columns: 1fr;
+    }
+
+    .parrafo,
+    .imagen {
+        grid-column: 1 / -1;
+    }
+}
